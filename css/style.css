@@ -397,6 +397,10 @@
 
 /*** Footer ***/
 
+
+.reduce{
+    font-size: 25px;
+}
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
