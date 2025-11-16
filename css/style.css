@@ -135,6 +135,11 @@
     }
 }
 
+@media (max-width: 576px) {
+    .reducing {
+        font-size: 20px; /* smaller size on Android */
+    }
+}
 
 /*** Header ***/
 .carousel-caption {
@@ -330,6 +335,7 @@
     .testimonial-carousel::after {
         width: 200px;
     }
+   
 }
 
 @media (min-width: 992px) {
