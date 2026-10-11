@@ -105,12 +105,6 @@
 }
 
 /* logo styling here */
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .navbar > a{
     display: flex;
     justify-content: center;
@@ -138,6 +132,7 @@
   object-fit: contain;
   border-radius: 16px;
 }
+/* logo styling ends here */
 
 /* Hover effect */
 .logo-container:hover {
@@ -159,13 +154,13 @@
     }
     /* logo styling here */
 
-.site-logo {
-  display: block;
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-  border-radius: 16px;
-}
+    .site-logo {
+        display: block;
+        width: 36px;
+        height: 36px;
+        object-fit: contain;
+        border-radius: 16px;
+    }
 
 }
 
@@ -198,13 +193,13 @@
 
 @media (max-width: 576px) {
     .reducing {
-        font-size: 20px; /* smaller size on Android */
+        font-size: 15px; /* smaller size on Android */
     }
 
     .site-logo {
         display: block;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         object-fit: contain;
         border-radius: 16px;
     }
@@ -260,6 +255,30 @@
         border-radius: 16px;
     }
     
+}
+
+
+
+@media (max-width: 320px) {
+    .reducing {
+        font-size: 15px; /* smaller size on Android */
+    }
+
+    .site-logo {
+        display: block;
+        width: 15px;
+        height: 15px;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+    
+    .navbar-toggler-icon{
+        width: 15px;
+        height: 15px;
+    }
+
+
+
 }
 
 .page-header {
