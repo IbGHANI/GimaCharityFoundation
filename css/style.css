@@ -105,6 +105,11 @@
 }
 
 /* logo styling here */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .navbar > a{
     display: flex;
