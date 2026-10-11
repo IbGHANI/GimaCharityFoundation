@@ -104,6 +104,44 @@
     color: var(--primary);
 }
 
+/* logo styling here */
+
+.navbar > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-right: 5px;
+  box-shadow: 0 4px 15px rgba(0, 45, 120, 0.15);
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+
+}
+
+.site-logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+/* Hover effect */
+.logo-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 45, 120, 0.25);
+}
+
+/* logo styling ends here */
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
@@ -114,6 +152,16 @@
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
     }
+    /* logo styling here */
+
+.site-logo {
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
 }
 
 @media (min-width: 992px) {
@@ -133,12 +181,29 @@
         transition: .5s;
         opacity: 1;
     }
+    .site-logo {
+        display: block;
+        width: 35px;
+        height: 35px;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+
 }
 
 @media (max-width: 576px) {
     .reducing {
         font-size: 20px; /* smaller size on Android */
     }
+
+    .site-logo {
+        display: block;
+        width: 25px;
+        height: 25px;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+
 }
 
 /*** Header ***/
@@ -181,6 +246,15 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .site-logo {
+        display: block;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        border-radius: 16px;
+    }
+    
 }
 
 .page-header {
@@ -334,6 +408,14 @@
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
+    }
+
+    .site-logo {
+        display: block;
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        border-radius: 16px;
     }
    
 }
