@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Gima Charity Foundation </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="GIMA CHARITY FOUNDATION" name="keywords">
     <meta content="GIMA CHARITY FOUNDATION" name="description">
 
@@ -29,6 +30,27 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        @media (max-width: 320px) {
+            .logo{
+                font-size: 15px; /* smaller size on Android */
+            }
+
+            .site-logo {
+                display: block;
+                width: 15px;
+                height: 15px;
+                object-fit: contain;
+                border-radius: 16px;
+            }
+            
+            .navbar-toggler-icon{ 
+                width: 15px;
+                height: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -58,7 +80,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
             <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
                 <span class="logo-container"><img src="img/logo.jpeg" alt="GCF Logo" class="site-logo"></span>
-                <h1 class="fw-bold text-primary m-0">Gima<span class="text-white">Charity</span>Foundation</h1>
+                <h1 class="fw-bold text-primary m-0 logo" >Gima<span class="text-white">Charity</span>Foundation</h1>
             </a>
             <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -70,8 +92,7 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="service.html" class="dropdown-item">Service</a>
-
+                            <a href="programs.html" class="dropdown-item">Programs</a>
                             <a href="team.html" class="dropdown-item">Our Team</a>
                             <a href="team.html" class="dropdown-item">Gallery</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
@@ -145,7 +166,7 @@
     <div class="container-xxl bg-light my-5 py-5">
         <div class="container py-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Program</div>
+                <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Programs</div>
                 <h1 class="display-6 mb-5">Every Child Deserves The Opportunity To Learn</h1>
             </div>
             <div class="row g-4 justify-content-center">
@@ -156,13 +177,12 @@
                                 <small>Education</small>
                             </div>
                             <h5 class="mb-3">Education For Children</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                           
+                            <p>Every child deserves the chance to learn, dream, and build a brighter future.</p>
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                            <img class="img-fluid" src="img/schoool-1.webp" alt="">
                             <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="">
+                                <a class="btn btn-outline-primary" href="education.html">
                                     Read More
                                     <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
@@ -176,14 +196,14 @@
                     <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
                             <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
-                                <small>Internships</small>
+                                <small>Entrepreneurship</small>
                             </div>
                             <h5 class="mb-3">Ensure they are skilled</h5>
-                            <p>The skill acquisition internship programmes is powered by The Bauchis State Government, through the Ministry of Women Affairs and Poverty Alleviation (WAPA), in conjunction with registered NGOs like Tender Hearts Foundation.</p>
+                            <p>It empowers individuals to create value, shape industries, and change the world.</p>
                             
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                            <img class="img-fluid" src="img/entrepreneurship.jpg" alt="">
                             <div class="causes-overlay">
                                 <a class="btn btn-outline-primary" href="">
                                     Read More
@@ -202,13 +222,13 @@
                                 <small>Healthy Life</small>
                             </div>
                             <h5 class="mb-3">Ensure Medical Treatment</h5>
-                            <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                            <p>A healthy life begins with mindful choices made every day.</p>
                           
                         </div>
                         <div class="position-relative mt-auto">
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                            <img class="img-fluid" src="img/581949878_122147745302938455_3376059061608645524_n.jpg" alt="">
                             <div class="causes-overlay">
-                                <a class="btn btn-outline-primary" href="">
+                                <a class="btn btn-outline-primary" href="health.html">
                                     Read More
                                     <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
@@ -223,7 +243,6 @@
     </div>
     <!-- Services End -->
 
-
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -235,13 +254,13 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="img/Team-1.jpeg" alt="">
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>AM Sukairaji</h5>
+                            <p class="text-primary">The Founder</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/GimaCharityFoundation"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
@@ -251,13 +270,13 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="img/Team-2.jpeg" alt="">
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>Sani Yalwa</h5>
+                            <p class="text-primary">Head of Health Department</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/GimaCharityFoundation"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
@@ -267,13 +286,13 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item position-relative rounded overflow-hidden">
                         <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid" src="img/Team-3.jpeg" alt="">
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>Munhaminnah</h5>
+                            <p class="text-primary">Head of Education</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/GimaCharityFoundation"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>
@@ -286,10 +305,10 @@
                             <img class="img-fluid" src="img/team-4.jpg" alt="">
                         </div>
                         <div class="team-text bg-light text-center p-4">
-                            <h5>Full Name</h5>
-                            <p class="text-primary">Designation</p>
+                            <h5>Saadu Ibrahim Ghani</h5>
+                            <p class="text-primary">NO DATA</p>
                             <div class="team-social text-center">
-                                <a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square" href="https://www.facebook.com/GimaCharityFoundation"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-square" href=""><i class="fab fa-instagram"></i></a>
                             </div>

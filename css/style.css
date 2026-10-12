@@ -272,13 +272,10 @@
         border-radius: 16px;
     }
     
-    .navbar-toggler-icon{
+    .navbar-toggler-icon{ 
         width: 15px;
         height: 15px;
     }
-
-
-
 }
 
 .page-header {
